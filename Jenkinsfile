@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/ekemena97/demo-app.git'
+                git branch: 'main', url: 'https://github.com/ekemena97/jen.git'
             }
         }
         stage('Code Analysis') {
